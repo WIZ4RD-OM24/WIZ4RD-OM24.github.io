@@ -1,0 +1,39 @@
+li{
+	font-size:30px;
+	
+	color:red;
+}
+	
+
+#a{
+	font-style:italic;
+	color:blue;
+	font-face:comic sans ms;
+	
+}
+#b{
+	font-style:bold;
+	color:red;
+	font-face:arial;
+	
+}
+#c{
+	font-style:underlined;
+	color:magenta;
+	font-face:ink free;
+	
+}
+marquee{
+		color:red;
+		font-size:50px;
+	    
+}
+body{
+	background-size:cover;
+}
+h1{
+	text-align:center;
+	font-family:helvetica;
+	font-size:60px;
+	color:brown;
+}
