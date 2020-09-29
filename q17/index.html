@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+input[type=text], select, textarea {
+  
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 4px;
+  margin-bottom: 14px;
+  resize: vertical;
+}
+input[type=tel], select, textarea {
+  
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 4px;
+  margin-bottom: 14px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #FFFFFF;
+  padding: 20px;
+}
+</style>
+</head>
+<body>
+
+<h3>Contact Us</h3>
+<h4><small>Send us your message and we will get back to you as soon as possible</small</h4>
+
+<div class="container">
+    <label for="fname">First Name :</label>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<label for="lname">Last Name :</label><br>
+    <input type="text" id="fname" name="firstname">
+<input type="text" id="lname" name="lastname"><br><br>
+
+    <label for="email"><b>Email:</b></label>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<label for="phone">Phone:</label><br>
+    <input type="text" id ="email" name="email" >
+<input type="tel" id="phone" name="phone"> <br> <br>
+
+    <label for="message">Message</label><br>
+    <textarea id="subject" name="subject" placeholder="Your Message Here" style="height:200px;width:400px;"></textarea>
+<br>
+    <input type="submit" value="post it" style="width:400px;">
+  </form>
+</div>
+
+</body>
+</html>
